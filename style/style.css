@@ -46,18 +46,22 @@
 
 /* <!-- 65% off section style start here --> */
 .second-section-container{
-    width: 521px;
+ width: 521px;
 height: 525px;
 margin: 0 auto;
 margin-top: 58px;
-}
-
-.second-section-container{
-    display: flex;
+display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 }
+
+/* .second-section-container{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+} */
 
 
 .second-section-container h1{
@@ -80,6 +84,7 @@ align-items: center;
 font-family: Inter;
 font-size: 32px;
 font-weight: 700; 
+margin-bottom: 20px;
 }
 
 .image-container{
@@ -98,6 +103,7 @@ height: 325px;
     height: 390px;
     margin: 0 auto;
     margin-top: 78px;
+    margin-bottom: 80px;
     display: flex;
     background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: overlay;
@@ -131,6 +137,7 @@ font-weight: 900;
         font-size: 11px;
         font-weight: 400;
         margin-top: 20px;
+        margin-left: 20px;
         }  
 
 #midnight-button{
@@ -138,6 +145,8 @@ font-weight: 900;
 font-family: Inter;
 font-size: 13px;
 font-weight: 700;
+margin-top: 31px;
+margin-right: 200px;
 }
 
 .right-side-content{
@@ -156,3 +165,86 @@ font-weight: 700;
 .mid-img{
     width: 100%;
 }
+/* holdy section style */
+.holiday-section-container{
+ width: 858px;
+height: 640px;
+margin-top: 20px;
+margin: 0 auto;
+position: relative;
+
+}
+
+.holdyday-text-container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+width: 694px;
+height: 169px;
+margin: 0 auto;
+gap: 10px;
+}
+
+.holdyday-text-container h5{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.holdyday-text-container h2{
+font-family: Merriweather;
+font-size: 46px;
+font-weight: 900;
+}
+
+#holiday{
+    color:rgb(255, 0, 0)
+}
+.holdyday-text-container p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 500;   
+    }
+ .solid-color{
+ width: 858px;
+height: 148px;
+background-color:  red;
+position: absolute;
+top: 77%;
+ }
+
+ .gift-box{
+/* width: 518px;
+height: 430px; */
+width: 518px;
+margin: 0 auto;
+margin-left: 15px;
+/* display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; */
+margin-top: 20px;
+margin-bottom: 20px;
+border: dashed 1 px white;
+position: relative;
+z-index: 1;
+display: flex;
+justify-content: space-between;
+
+ }
+ .gift{
+    width: 100%;
+ }
+
+   .discount{
+    height: 191px;
+    height: 191px;
+   }
+
+
+ 
+ 
