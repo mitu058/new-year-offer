@@ -1,0 +1,155 @@
+
+
+@media screen and (max-width:576px) {
+
+    
+   
+  
+
+
+
+
+    
+    .banner-container,
+    .second-section-container,
+    .midnight-party-container,
+    .new-park-section-container,
+    .Coming-soon-container,
+    .holiday-section-container,
+    .portfolio-section-container,
+    .Subscribe-section-container,
+    .footer-container{
+        width: 100%;
+    }
+    .banner-content h1{
+        font-size: 35px;
+    }
+    .image-container img{
+        height: 100%;
+        padding: 50px;   
+    }
+    .midnight-party-container {
+       
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+    .left-side-content h2{
+        font-size: 35px;
+        text-align: center; 
+        padding-right: 22px;  
+    }
+
+    .left-side-content p{
+       font-size: 15px;
+       
+    }
+    .mid-img{
+        width: 100%;
+        height: 100%;
+        padding-right: 30px;
+    }
+
+    .new-park-text h4{
+        font-size: 17px;
+    }
+    .Coming-soon-content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .text-content{
+        width: 100%;
+    }
+
+    .Ellipse{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .holiday-text-container{
+        width: 90%;
+    }
+    .holiday-text-container h5{
+        margin-top: 50px;
+    }
+
+    .holiday-text-container h2{
+        font-size: 30px;
+    }
+    .holiday-text-container p{
+        font-size: 12px;
+        
+    }
+
+
+
+    html, body {
+        overflow-x: hidden;
+      }
+     body {
+        width:100%;
+      }
+
+
+    .gift-box{
+        width: 100%;
+       margin-top: 100px;  
+    }
+
+    .portfolio-text-content{
+        width: 95%;  
+    }
+    .portfolio-text-content p{
+        width: 90%;
+        margin: 20px;
+    }
+
+    .portfolio-items{
+        grid-template-columns:  1fr;
+        align-items: center;
+    }
+    
+    .item img{
+       width: 100%;
+       height: 100%;
+    }
+
+    .item{
+        display: flex;
+       padding: 10px 50px;
+    }
+    .Subscribe-content{
+        width: 100%;
+    }
+    .subscribe-text-container h2{
+        font-size: 20px;
+    }
+
+    .subscribe-text-container p{
+        font-size: 12px;
+    }
+    
+     input{
+        width: 100%;
+     }
+
+    .contact{
+        font-size: 14px;
+    }
+    .footer-first-section{
+        gap: 15px;
+    }
+    .adress{
+        font-size: 14px;   
+    }
+    .social-icons{
+       height: 30px;
+    }
+    .footer-end-text{
+        font-size: 14px;
+        
+    }
+   }
