@@ -10,9 +10,8 @@ body{
 }
 /* banner section stylee start here */
 .banner-container{
-    width: 60%;
-    /* width: 858px; */
-    height: 100vh;
+    width: 858px;
+    height:100%;
     margin: 0 auto;
     margin-top: 20px;
    height: 390px;
@@ -112,13 +111,7 @@ height: 325px;
   
 }
 
-/* .midnight-content{
-    width: 60%;
-    height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    gap: 8rem;
-} */
+
 
 .left-side-content{
 width:50%;
@@ -176,9 +169,8 @@ margin-right: 200px;
 /* new-park-section-style */
 .new-park-section-container{
     width: 858px;
-   height: 313px;
+    height: 100%;
    border-radius: 16px;
-   /* border: 2px solid red; */
    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
    }
    
@@ -266,7 +258,7 @@ margin-right: 200px;
 /* holdy section style */
 .holiday-section-container{
  width: 858px;
-height: 640px;
+ height: 100%;
 margin-top: 20px;
 margin: 0 auto;
 position: relative;
@@ -370,8 +362,6 @@ margin-bottom: 20px;
 }
 
 /* portfolio item style */
-
-
 .portfolio-items{
     display: grid;
     grid-template-columns: repeat(3, 1fr);

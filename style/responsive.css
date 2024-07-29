@@ -2,14 +2,13 @@
 
 @media screen and (max-width:576px) {
 
-    
-   
-  
+    html, body {
+        overflow-x: hidden;
+      }
+     body {
+        width:100%;
+      }
 
-
-
-
-    
     .banner-container,
     .second-section-container,
     .midnight-party-container,
@@ -83,16 +82,6 @@
         font-size: 12px;
         
     }
-
-
-
-    html, body {
-        overflow-x: hidden;
-      }
-     body {
-        width:100%;
-      }
-
 
     .gift-box{
         width: 100%;
