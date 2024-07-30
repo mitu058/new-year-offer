@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
-*{
+ *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
+} 
+
 body{
+    
     font-family: "Merriweather", serif;
 }
+
+
 /* banner section stylee start here */
 .banner-container{
-    width: 858px;
-    height:100%;
+    width:60%;
     margin: 0 auto;
     margin-top: 20px;
    height: 390px;
@@ -47,8 +50,7 @@ body{
 
 /* <!-- 65% off section style start here --> */
 .second-section-container{
- width: 521px;
-height: 525px;
+    width: 60%;
 margin: 0 auto;
 margin-top: 58px;
 display: flex;
@@ -93,9 +95,7 @@ height: 325px;
 
 /* mdinight party section style */
 .midnight-party-container{
-    width: 858px;
-  height: 100%;
-    
+  width: 60%;
     margin: 0 auto;
     margin-top: 78px;
     margin-bottom: 80px;
@@ -110,8 +110,6 @@ height: 325px;
     justify-content: space-between;
   
 }
-
-
 
 .left-side-content{
 width:50%;
@@ -168,8 +166,8 @@ margin-right: 200px;
 
 /* new-park-section-style */
 .new-park-section-container{
-    width: 858px;
-    height: 100%;
+    width: 60%;
+    margin: 0 auto;
    border-radius: 16px;
    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
    }
@@ -213,8 +211,9 @@ margin-right: 200px;
    }
     /* comming soon section style */
     .Coming-soon-container{
-        width: 858px;
-        height: 100%;
+        width: 60%;
+        margin: 0 auto;
+        
     }
 
     .Coming-soon-content{
@@ -257,8 +256,8 @@ margin-right: 200px;
 
 /* holdy section style */
 .holiday-section-container{
- width: 858px;
- height: 100%;
+ width: 60%;
+ margin: 0 auto;
 margin-top: 20px;
 margin: 0 auto;
 position: relative;
@@ -329,8 +328,7 @@ justify-content: space-between;
 
    /* portfolio style */
 .portfolio-section-container{
-width: 858px;
-height: 100%;
+width: 60%;
 margin: 0 auto;
 margin-top: 78px;
 }
@@ -375,8 +373,8 @@ margin-bottom: 20px;
 }
 /* subcriber section style */
 .Subscribe-section-container{
-width: 858px;
-height: 100%;
+width: 60%;
+margin: 0 auto;
 margin-top: 50px;
 border-radius: 10px;
 background: rgba(255, 0, 0, 0.05);
@@ -422,11 +420,10 @@ input{
 
 /* fotter style */
 .footer-container{
-width: 858px;
-height: 100%;
+
+width: 60%;
 margin: 0 auto;
 background: rgb(7, 2, 17);
-margin: 0 auto;
 padding: 30px;
 }
 
