@@ -12,19 +12,30 @@
       }
 
 
-    .banner-container,
+     
     .second-section-container,
-    .midnight-party-container,
+    /* .midnight-party-container, */
     .new-park-section-container,
     .Coming-soon-container,
     .holiday-section-container,
     .portfolio-section-container,
     .Subscribe-section-container,
-    .footer-container{
+    .footer-container,
+    .midnight-content
+    
+    {
        width: 100%;
     }
 
+    .banner-container{
+        height: 100%;
+    }
 
+  
+
+.banner-content{
+    height: 300px;
+}
     .banner-content h1{
         font-size: 35px;
     }
@@ -32,28 +43,42 @@
         height: 100%;
         padding: 50px;   
     }
-    .midnight-party-container {
-       
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 0.5rem;
+    .midnight-party-container{
+        height: 100%;
     }
+
+    .midnight-content{
+        
+        grid-template-columns: 1fr;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.50rem;
+        
+        justify-content: center;
+       
+        
+    }
+
     .left-side-content h2{
         font-size: 35px;
         text-align: center; 
-        padding-right: 22px;  
+         
     }
 
     .left-side-content p{
-       font-size: 13px;
-       padding-right: 20px;
+       font-size: 15px;
+      
        text-align: center;
        
     }
+
+    
+    
     .mid-img{
-        width: 100%;
+        width: 80%;
         height: 100%;
-        padding-right: 30px;
+        
+        /* padding-right: 30px; */
     }
 
     .new-park-text h4{
